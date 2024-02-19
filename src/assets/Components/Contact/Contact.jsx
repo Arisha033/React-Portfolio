@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export const Contact = () => {
   return (
     <>
-      <section className="w-full h-screen bg-[#262525] text-white">
+      <section id="contact" className="w-full h-screen bg-[#262525] text-white">
         <h2>Get In Touch</h2>
         <form
           action="https://getform.io/f/c00c843e-0cde-4551-bfda-d0ab3961ccb8"
@@ -37,5 +37,5 @@ export const Contact = () => {
         </form>
       </section>
     </>
-  )
-}
+  );
+};

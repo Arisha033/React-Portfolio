@@ -4,7 +4,10 @@ import ProfilePicture from '../../images/project-images/Arisha.jpg'
 export const About = () => {
   return (
     <>
-      <section className="flex flex-col w-full h-screen justify-center items-center bg-[#262525] text-white">
+      <section
+        id="about"
+        className="flex flex-col w-full h-screen justify-center items-center bg-[#262525] text-white"
+      >
         <div className="flex flex-col items-center">
           <img
             src={ProfilePicture}
