@@ -1,18 +1,18 @@
-import React from 'react'
-import ProfilePicture from '../../images/project-images/Arisha.jpg'
+import React from "react";
+import ProfilePicture from "../../images/project-images/Arisha.jpg";
 
 export const About = () => {
   return (
     <>
       <section
         id="about"
-        className="flex flex-col w-full h-screen justify-center items-center bg-[#262525] text-white"
+        className="flex flex-col w-full h-screen justify-center items-center"
       >
         <div className="flex flex-col items-center">
           <img
             src={ProfilePicture}
             alt="image loading"
-            className="rounded-full h-60 w-60 border-white my-4"
+            className="rounded-full h-60 w-60 my-4"
           />
           <h4 className="text-2xl font-bold ml-3">Greetings! I am Arisha.</h4>
           <p className="text-gray flex flex-wrap justify-center px-20">
@@ -30,5 +30,5 @@ export const About = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};

@@ -1,16 +1,16 @@
-import React from 'react'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from "react";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-library.add(faBars)
+library.add(faBars);
 
 export const Header = (props) => {
   return (
     <>
       <nav
         className="flex justify-between items-center
-     w-full h-20 px-4 text-white fixed bg-[#1f1e1e]"
+     w-full h-20 px-4 fixed"
       >
         <div>
           <h1 className="text-3xl font-bold">Arisha.</h1>
@@ -36,5 +36,5 @@ export const Header = (props) => {
         </div>
       </nav>
     </>
-  )
-}
+  );
+};
