@@ -12,20 +12,17 @@ export const About = () => {
           <img
             src={ProfilePicture}
             alt="image loading"
-            className="rounded-full h-60 w-60 my-4"
+            className="rounded-full h-60 w-60 my-4 border-2"
           />
           <h4 className="text-2xl font-bold ml-3">Greetings! I am Arisha.</h4>
-          <p className="text-gray flex flex-wrap justify-center px-20">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iure a
-            nulla at totam neque aliquid rem unde iste animi nostrum quos, nobis
-            velit dolorem alias ratione earum? Provident, accusamus.
-            {/* A passionate and driven BTech student with a keen interest in
-            Front End Web Development. Throughout my academic journey, I
-            have relentlessly pursued knowledge and practical skills in the
+          <p className="text-gray flex flex-wrap justify-center w-3/4 py-2 px-4">
+            A passionate and driven BTech student with a keen interest in Front
+            End Web Development. Throughout my academic journey, I have
+            relentlessly pursued knowledge and practical skills in the
             ever-evolving field of technology. This portfolio serves as a
             testament to my dedication, showcasing the projects, experiences,
             and achievements that have shaped my academic and professional
-            identity. */}
+            identity.
           </p>
         </div>
       </section>

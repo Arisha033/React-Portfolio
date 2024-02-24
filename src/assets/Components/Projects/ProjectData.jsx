@@ -1,46 +1,46 @@
-import Calculator from '../../images/project-images/calculator.png'
-import CurrencyConverter from '../../images/project-images/currencyConverter.png'
-import DrumKit from '../../images/project-images/drumKit.png'
-import Todo from '../../images/project-images/todo.png'
-import Pizza from '../../images/project-images/pizza.png'
-import TenziesGame from '../../images/project-images/tenziesGame.png'
+import Calculator from "../../images/project-images/calculator.png";
+import CurrencyConverter from "../../images/project-images/currencyConverter.png";
+import DrumKit from "../../images/project-images/drumKit.png";
+import Todo from "../../images/project-images/todo.png";
+import Pizza from "../../images/project-images/pizza.png";
+import TenziesGame from "../../images/project-images/tenziesGame.png";
 
 const projectData = [
   {
     img: Calculator,
-    desc: 'Description of Project 1.',
-    link_1: 'https://basic-javascript-calc.netlify.app/',
-    link_2: 'https://github.com/Arisha033/Js-Calculator',
+    desc: "A Basic Calculator built using HTML, CSS and JavaScript.",
+    link_1: "https://basic-javascript-calc.netlify.app/",
+    link_2: "https://github.com/Arisha033/Js-Calculator",
   },
   {
     img: CurrencyConverter,
-    desc: 'Description of Project 2.',
-    link_1: 'https://currency-converterx.netlify.app',
-    link_2: 'https://github.com/Arisha033/currencyConverter',
+    desc: "A Currency Converter built using ReactJs, Tailwind and CurrencyAPI to fetch data.",
+    link_1: "https://currency-converterx.netlify.app",
+    link_2: "https://github.com/Arisha033/currencyConverter",
   },
   {
     img: DrumKit,
-    desc: 'Description of Project 3.',
-    link_1: 'https://band-kit.netlify.app/',
-    link_2: 'https://github.com/Arisha033/drum-kit',
+    desc: "A Drum kit built using HTML, CSS and JavaScript with added key press event functionality.",
+    link_1: "https://band-kit.netlify.app/",
+    link_2: "https://github.com/Arisha033/drum-kit",
   },
   {
     img: Todo,
-    desc: 'Description of Project 4.',
-    link_1: 'https://todo-container.netlify.app/',
-    link_2: 'https://github.com/Arisha033/Todo-Practice',
+    desc: "Basic TO DO built using HTML, CSS, JavaScript and Local Storage to store todos.",
+    link_1: "https://todo-container.netlify.app/",
+    link_2: "https://github.com/Arisha033/Todo-Practice",
   },
   {
     img: Pizza,
-    desc: 'Description of Project 4.',
-    link_1: 'https://pizza-we.netlify.app',
-    link_2: 'https://github.com/Arisha033/pizza-website',
+    desc: "A Pizza delivery app built using HTML and BootStrap",
+    link_1: "https://pizza-we.netlify.app",
+    link_2: "https://github.com/Arisha033/pizza-website",
   },
   {
     img: TenziesGame,
-    desc: 'Description of Project 4.',
-    link_1: 'https://tenzieszz.netlify.app/',
-    link_2: 'https://github.com/Arisha033/TenziesGame',
+    desc: "A game app built using ReactJs.",
+    link_1: "https://tenzieszz.netlify.app/",
+    link_2: "https://github.com/Arisha033/TenziesGame",
   },
-]
-export default projectData
+];
+export default projectData;
