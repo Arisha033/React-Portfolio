@@ -41,7 +41,7 @@ export const Contact = () => {
             Send Message
           </button>
         </form>
-        <div className="flex flex-row gap-8 justify-end mx-8 text-2xl p-2">
+        <div className="flex flex-row gap-8 justify-end mx-24 text-2xl p-2">
           <a href="mailto:arishaaa333@gmail.com" target="_blank">
             <IoIosMail />
           </a>

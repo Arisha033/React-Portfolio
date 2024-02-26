@@ -1,7 +1,15 @@
 import React from "react";
+import { useState } from "react";
 import ProfilePicture from "../../images/project-images/Arisha.jpg";
 
 export const About = () => {
+  // top button
+  const [isTop, setIsTop] = useState(false);
+  function showTop() {
+    setIsTop(!isTop);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   return (
     <>
       <section
@@ -12,10 +20,10 @@ export const About = () => {
           <img
             src={ProfilePicture}
             alt="image loading"
-            className="rounded-full h-60 w-60 my-4 border-2"
+            className="rounded-full w-40 hover:cursor-pointer hover:w-56 my-2 border-2"
           />
           <h4 className="text-2xl font-bold ml-3">Greetings! I am Arisha.</h4>
-          <p className="text-gray flex flex-wrap justify-center w-3/4 py-2 px-4">
+          <p className="text-gray flex flex-wrap justify-center w-2/4 py-2 leading-6 text-lg">
             A passionate and driven BTech student with a keen interest in Front
             End Web Development. Throughout my academic journey, I have
             relentlessly pursued knowledge and practical skills in the
@@ -25,6 +33,12 @@ export const About = () => {
             identity.
           </p>
         </div>
+        <button
+          onClick={showTop}
+          className="fixed border-2 py-2 px-4 rounded-xl right-0 mr-8 bottom-0 mb-6 hover:text-xl hover:shadow-2xl hover:shadow-slate-50"
+        >
+          Top
+        </button>
       </section>
     </>
   );
