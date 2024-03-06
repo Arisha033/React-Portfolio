@@ -20,10 +20,10 @@ export const About = () => {
           <img
             src={ProfilePicture}
             alt="image loading"
-            className="rounded-full w-40 hover:cursor-pointer hover:w-56 my-2 border-2"
+            className="rounded-full w-40 md:hover:cursor-pointer md:hover:w-56 my-2 border-2"
           />
           <h4 className="text-2xl font-bold ml-3">Greetings! I am Arisha.</h4>
-          <p className="text-gray flex flex-wrap justify-center w-2/4 py-2 leading-6 text-lg">
+          <p className="text-gray flex flex-wrap text-justify px-8 text-md">
             A passionate and driven BTech student with a keen interest in Front
             End Web Development. Throughout my academic journey, I have
             relentlessly pursued knowledge and practical skills in the
