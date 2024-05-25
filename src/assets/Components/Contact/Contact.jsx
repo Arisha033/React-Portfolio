@@ -53,7 +53,7 @@ export const Contact = () => {
           </a>
         </div>
       </section>
-      <footer className="text-center pb-4">
+      <footer className="text-center py-6">
         Copyright@2024| Made with 🤍 by Arisha.
       </footer>
     </>

@@ -1,5 +1,5 @@
 import Calculator from "../../images/project-images/calculator.png";
-import CurrencyConverter from "../../images/project-images/currencyConverter.png";
+import MemeGenerator from "../../images/project-images/meme-generator.png";
 import DrumKit from "../../images/project-images/drumKit.png";
 import Todo from "../../images/project-images/todo.png";
 import Pizza from "../../images/project-images/pizza.png";
@@ -15,10 +15,10 @@ const projectData = [
   },
   {
     id: 2,
-    img: CurrencyConverter,
-    desc: "A Currency Converter built using ReactJs, Tailwind and CurrencyAPI to fetch data.",
-    link_1: "https://currency-converterx.netlify.app",
-    link_2: "https://github.com/Arisha033/currencyConverter",
+    img: MemeGenerator,
+    desc: "A Meme Generator built using ReactJs, Tailwind and API to fetch data.",
+    link_1: "https://my-meme-generatorr.netlify.app/",
+    link_2: "https://github.com/Arisha033/Meme-Generator",
   },
   {
     id: 3,
